@@ -6,7 +6,7 @@ import FiberManualRecordIcon from '@mui/icons-material/FiberManualRecord';
 import { Box } from '@mui/system';
 import PropTypes from 'prop-types';
 
-const UserGrid = ({ columns, data, autoHeight }) => {
+const Grid = ({ columns, data, autoHeight }) => {
 
   const [status] = React.useState('connected');
   const [auto] = useState(autoHeight);
@@ -105,4 +105,4 @@ const UserGrid = ({ columns, data, autoHeight }) => {
   );
 };
 
-export default UserGrid;
+export default Grid;
